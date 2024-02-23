@@ -1,0 +1,35 @@
+{
+  "name": "clean-code-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "adapter": "npx ts-node ./Design_Patterns/Structural/Adapter/main.ts",
+    "bridge": "npx ts-node ./Design_Patterns/Structural/Bridge/main.ts",
+    "composite": "npx ts-node ./Design_Patterns/Structural/Composite/main.ts",
+    "decorator": "npx ts-node ./Design_Patterns/Structural/Decorator/main.ts",
+    "facade": "npx ts-node ./Design_Patterns/Structural/Facade/main.ts",
+    "flyweight": "npx ts-node ./Design_Patterns/Structural/Flyweight/main.ts",
+    "proxy": "npx ts-node ./Design_Patterns/Structural/Proxy/main.ts",
+    "chainOfResponsibility": "npx ts-node ./Design_Patterns/Behavioral/Chain_of_Responsibility/main.ts",
+    "command": "npx ts-node ./Design_Patterns/Behavioral/Command/main.ts",
+    "interpreter": "npx ts-node ./Design_Patterns/Behavioral/Interpreter/main.ts",
+    "iterator": "npx ts-node ./Design_Patterns/Behavioral/Iterator/main.ts",
+    "mediator": "npx ts-node ./Design_Patterns/Behavioral/Mediator/main.ts",
+    "observer": "npx ts-node ./Design_Patterns/Behavioral/Observer/main.ts",
+    "state": "npx ts-node ./Design_Patterns/Behavioral/State/main.ts",
+    "strategy": "npx ts-node ./Design_Patterns/Behavioral/Strategy/main.ts",
+    "templateMethod": "npx ts-node ./Design_Patterns/Behavioral/Template_Method/main.ts",
+    "visitor": "npx ts-node ./Design_Patterns/Behavioral/Visitor/main.ts",
+    "abstractFactory": "npx ts-node ./Design_Patterns/Creational/Abstract_Factory/main.ts",
+    "builder": "npx ts-node ./Design_Patterns/Creational/Builder/main.ts",
+    "factory Method": "npx ts-node ./Design_Patterns/Creational/Factory_Method/main.ts",
+    "prototype": "npx ts-node ./Design_Patterns/Creational/Prototype/main.ts",
+    "singleton": "npx ts-node ./Design_Patterns/Creational/Singleton/main.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "commonjs": "^0.0.1",
+    "typescript": "^5.3.3"
+  }
+}

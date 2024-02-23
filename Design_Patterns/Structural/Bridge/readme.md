@@ -1,0 +1,5 @@
+# Bridge Pattern
+
+Hier ist ein anderes Beispiel für das Bridge-Muster, das eine Implementierung für verschiedene Gerätetypen darstellt, die Fernbedienungen steuern können. Das Muster ermöglicht es, die Geräte (z.B. TV, DVD-Player) von den Fernbedienungen zu entkoppeln, so dass beide unabhängig voneinander variieren können.
+
+In diesem Beispiel haben wir eine Abstrakte Klasse RemoteControl, die verschiedene Methoden zum Steuern eines Geräts bereitstellt (z.B. powerOn, powerOff, volumeUp, volumeDown). Die konkreten Implementierungen dieser Klasse (StandardRemoteControl) verwenden ein Gerät (Device) und delegieren die Steuerung an dieses Gerät. Verschiedene Gerätetypen (TV, DVDPlayer) implementieren ihre eigenen Methoden zum Ein- und Ausschalten sowie zur Lautstärkeregelung. Das Bridge-Muster ermöglicht es, die Implementierung der Fernbedienung von der Implementierung der Geräte zu trennen und beide unabhängig voneinander zu variieren.
