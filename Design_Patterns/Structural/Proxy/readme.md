@@ -2,7 +2,7 @@
 
 Das Proxy-Muster ermöglicht es, zusätzliches Verhalten hinzuzufügen, bevor oder nachdem die Anfrage an das echte Objekt weitergeleitet wird.
 
-In diesem Beispiel wird das Proxy verwendet, um den Zugriff auf bestimmte Websites zu kontrollieren:
+In diesem Beispiel wird das Proxy-Pattern verwendet, um den Zugriff auf bestimmte Websites zu kontrollieren:
 
 - Das Internet-Interface definiert die Methode connectTo, die von allen Implementierungen des Internets verwendet wird.
 - Die Klasse RealInternet ist die echte Implementierung des Internets, die den Zugriff auf eine URL ermöglicht.

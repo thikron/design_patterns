@@ -1,6 +1,6 @@
 # Composite Pattern
 
-In diesem Beispiel haben wir das Composite Design Pattern implementiert, um eine hierarchische Struktur von Mitarbeitern in einem Unternehmen darzustellen.
+In diesem Beispiel ist das Composite Design Pattern implementiert, um eine hierarchische Struktur von Mitarbeitern in einem Unternehmen darzustellen.
 
 - Das Employee-Interface definiert die gemeinsamen Operationen, die sowohl für Blattknoten als auch für Composite-Knoten gelten.
 - Die Klasse Developer repräsentiert einen Blattknoten im Baum, der einen einzelnen Entwickler darstellt.

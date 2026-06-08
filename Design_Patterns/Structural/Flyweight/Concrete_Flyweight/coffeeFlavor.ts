@@ -2,7 +2,7 @@ import {CoffeeOrder} from "../Flyweight_Interface/coffeeOrder";
 import {CoffeeOrderContext} from "../Context/coffeeOrderContext";
 
 export class CoffeeFlavor implements CoffeeOrder {
-    private flavor: string;
+    private readonly flavor: string;
 
     constructor(flavor: string) {
         this.flavor = flavor;

@@ -1,8 +1,8 @@
 import {Employee} from "../Component/employee";
 
 export class Developer implements Employee {
-    private name: string;
-    private salary: number;
+    private readonly name: string;
+    private readonly salary: number;
 
     constructor(name: string, salary: number) {
         this.name = name;

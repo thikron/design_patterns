@@ -2,7 +2,7 @@ import {PizzaBuilder} from "../Builder/pizzaBuilder";
 import {Pizza} from "../Product/pizza";
 
 export class PepperoniPizzaBuilder implements PizzaBuilder {
-    private pizza: Pizza;
+    private readonly pizza: Pizza;
 
     constructor() {
         this.pizza = new Pizza();

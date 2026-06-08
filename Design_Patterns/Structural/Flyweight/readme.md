@@ -1,4 +1,4 @@
-# Fleyweight Pattern
+# Flyweight Pattern
 
 Das Flyweight-Muster wird verwendet, um den Speicherverbrauch zu reduzieren, indem gemeinsam genutzte Daten zwischen mehreren ähnlichen Objekten geteilt werden.
 

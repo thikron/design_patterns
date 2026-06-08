@@ -1,5 +1,5 @@
 export class CoffeeOrderContext {
-    private tableNumber: number;
+    private readonly tableNumber: number;
 
     constructor(tableNumber: number) {
         this.tableNumber = tableNumber;

@@ -21,6 +21,14 @@ export class ComputerFacade {
         console.log("Computer started successfully.");
     }
 
+    checkHardDrive(): void {
+        this.cpu.execute("Check HardDrive");
+    }
+
+    checkMemory(): void {
+        this.cpu.execute("Check Memory");
+    }
+
     shutdownComputer(): void {
         console.log("Shutting down computer...");
         this.cpu.stop();

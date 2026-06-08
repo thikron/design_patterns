@@ -1,6 +1,6 @@
 # Builder Pattern
 
-In diesem Beispiel haben wir das Builder Design Pattern implementiert, um eine flexible und schrittweise Erstellung von Pizza-Objekten zu ermöglichen.
+In diesem Beispiel ist das Builder-Design Pattern implementiert, um eine flexible und schrittweise Erstellung von Pizza-Objekten zu ermöglichen.
 
 - Die Klasse Pizza repräsentiert das zu erstellende Produkt und bietet Methoden zum Setzen der Teile einer Pizza.
 - Das Interface PizzaBuilder definiert die Methoden, die ein Builder implementieren muss, um eine Pizza zu erstellen.

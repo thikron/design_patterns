@@ -1,5 +1,5 @@
 export class Memento {
-    private state: string;
+    private readonly state: string;
 
     constructor(state: string) {
         this.state = state;

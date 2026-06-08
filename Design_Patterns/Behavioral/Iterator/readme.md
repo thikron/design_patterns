@@ -6,7 +6,7 @@ In diesem Beispiel:
 
 - Das Aggregate-Interface definiert eine Methode createIterator, die einen Iterator erstellt.
 - Das Iterator-Interface definiert die Methoden hasNext und next für die Iteration über die Elemente einer Sammlung.
-- Die Klasse Collection ist ein konkreter Aggregate, der Elemente speichert und einen Iterator für diese Elemente erstellt.
+- Die Klasse Collection ist ein konkretes Aggregat, der Elemente speichert und einen Iterator für diese Elemente erstellt.
 - Die Klasse CollectionIterator ist ein konkreter Iterator, der die Elemente der Sammlung sequenziell durchläuft.
 - Im Client-Code wird eine Sammlung erstellt, Elemente hinzugefügt und anschließend über einen Iterator durch die Elemente iteriert.
 

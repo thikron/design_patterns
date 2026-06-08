@@ -1,5 +1,6 @@
 export class Singleton {
     private static instance: Singleton;
+    public name = '';
 
     private constructor() {
         // Private constructor to prevent instantiation from outside
@@ -12,7 +13,7 @@ export class Singleton {
         return Singleton.instance;
     }
 
-    someBusinessLogic() {
-        // Some business logic here
+    setInstanceName(name: string) {
+        this.name = name;
     }
 }

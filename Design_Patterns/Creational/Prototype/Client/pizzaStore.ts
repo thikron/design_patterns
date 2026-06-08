@@ -2,7 +2,7 @@
 import {PizzaPrototype} from "../Prototype/pizzaPrototype";
 
 export class PizzaStore {
-    private pizzaPrototypes: { [key: string]: PizzaPrototype };
+    private readonly pizzaPrototypes: { [key: string]: PizzaPrototype };
 
     constructor() {
         this.pizzaPrototypes = {};

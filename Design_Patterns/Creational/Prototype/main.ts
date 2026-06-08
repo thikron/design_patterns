@@ -11,5 +11,5 @@ const veggiePrototype: PizzaPrototype = new VeggiePizza();
 pizzaStore.addPrototype("Pepperoni", pepperoniPrototype);
 pizzaStore.addPrototype("Veggie", veggiePrototype);
 
-const pepperoniPizza: PizzaPrototype = pizzaStore.orderPizza("Pepperoni");
-const veggiePizza: PizzaPrototype = pizzaStore.orderPizza("Veggie");
+pizzaStore.orderPizza("Pepperoni");
+pizzaStore.orderPizza("Veggie");

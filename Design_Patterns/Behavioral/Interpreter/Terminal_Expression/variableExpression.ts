@@ -2,7 +2,7 @@ import {Expression} from "../Abstract_Expression/expression";
 import {Context} from "../Context/context";
 
 export class VariableExpression implements Expression {
-    private name: string;
+    private readonly name: string;
 
     constructor(name: string) {
         this.name = name;

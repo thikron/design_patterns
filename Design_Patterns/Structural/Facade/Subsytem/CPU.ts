@@ -3,8 +3,8 @@ export class CPU {
         console.log("CPU is starting...");
     }
 
-    execute(): void {
-        console.log("CPU is executing instructions...");
+    execute(instruction: string): void {
+        console.log(`CPU is executing instruction: ${instruction}`);
     }
 
     stop(): void {

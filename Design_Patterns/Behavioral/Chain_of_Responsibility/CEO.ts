@@ -1,7 +1,7 @@
 import {PurchaseApproval} from "./Handler_Interface/purchaseApproval";
 
 export class CEO implements PurchaseApproval {
-    setNextApproval(approval: PurchaseApproval): void {
+    setNextApproval(_: PurchaseApproval): void {
         // CEO is the final authority, no next approval needed
     }
 

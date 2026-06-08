@@ -1,6 +1,6 @@
 # Factory Method
 
-In diesem Beispiel haben wir das Factory Method Design Pattern implementiert, um die Erstellung von Pizza-Objekten zu delegieren.
+In diesem Beispiel ist das Factory Method Design Pattern implementiert, um die Erstellung von Pizza-Objekten zu delegieren.
 
 - Das Pizza-Interface definiert die Methoden, die von allen konkreten Produkten (Pizza-Typen) implementiert werden müssen.
 - Die Klassen PepperoniPizza und VeggiePizza sind konkrete Implementierungen von Pizza.

@@ -1,6 +1,6 @@
 # Prototype Pattern
 
-In diesem Beispiel haben wir das Prototype Design Pattern implementiert, um die Erstellung von Pizza-Objekten durch Klonen von Prototypen zu ermöglichen.
+In diesem Beispiel ist das Prototype Design Pattern implementiert, um die Erstellung von Pizza-Objekten durch Klonen von Prototypen zu ermöglichen.
 
 - Das PizzaPrototype-Interface definiert die Methoden, die von allen konkreten Prototypen (Pizza-Typen) implementiert werden müssen, sowie die clone()-Methode zum Klonen.
 - Die Klassen PepperoniPizza und VeggiePizza sind konkrete Implementierungen von Pizza und implementieren das PizzaPrototype-Interface.

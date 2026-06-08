@@ -1,6 +1,6 @@
 # Adapter Pattern
 
-In diesem Beispiel haben wir das Adapter Design Pattern implementiert, um die Kompatibilität zwischen verschiedenen Arten von Media Playern zu ermöglichen.
+In diesem Beispiel ist das Adapter-Design Pattern implementiert, um die Kompatibilität zwischen verschiedenen Arten von Media Playern zu ermöglichen.
 
 - Das MediaPlayer-Interface definiert die Methode play, die von allen Media Playern implementiert werden muss.
 - Die AdvancedMediaPlayer-Klasse repräsentiert den vorhandenen Advanced Media Player, der jedoch nicht mit dem MediaPlayer-Interface kompatibel ist.

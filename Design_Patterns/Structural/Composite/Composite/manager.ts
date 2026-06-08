@@ -1,8 +1,8 @@
 import {Employee} from "../Component/employee";
 
 export class Manager implements Employee {
-    private name: string;
-    private salary: number;
+    private readonly name: string;
+    private readonly salary: number;
     private subordinates: Employee[];
 
     constructor(name: string, salary: number) {

@@ -1,6 +1,6 @@
 # Singleton Pattern
 
-In diesem Beispiel haben wir das Singleton Design Pattern implementiert, um sicherzustellen, dass nur eine Instanz einer Klasse existiert und auf diese zugegriffen werden kann.
+In diesem Beispiel ist das Singleton Design Pattern implementiert, um sicherzustellen, dass nur eine Instanz einer Klasse existiert und auf diese zugegriffen werden kann.
 
 - Die Klasse Singleton hat einen privaten statischen Member instance, der die einzige Instanz der Klasse speichert.
 - Der Konstruktor der Klasse ist privat, um eine direkte Instanziierung von außerhalb der Klasse zu verhindern.
